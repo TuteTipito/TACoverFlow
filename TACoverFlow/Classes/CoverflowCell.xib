@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="RWf-Mp-Crj" customClass="CoverflowCell" customModule="TACoverFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="242"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RWf-Mp-Crj" id="eCd-vl-t6W">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="241.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ihY-tc-kd6">
+                        <rect key="frame" x="0.0" y="41" width="351" height="170"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="170" id="d8w-fX-XuL"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="r1V-J7-kKy">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAKE YOUR NEXT STEP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f8-ja-qDh">
+                        <rect key="frame" x="20" y="11" width="311" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="6KA-T8-k8Q">
+                        <rect key="frame" x="0.0" y="211" width="351" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="XH1-6o-uIO"/>
+                        </constraints>
+                        <color key="pageIndicatorTintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="currentPageIndicatorTintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </pageControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6KA-T8-k8Q" firstAttribute="top" secondItem="ihY-tc-kd6" secondAttribute="bottom" id="0V7-lQ-8tf"/>
+                    <constraint firstItem="ihY-tc-kd6" firstAttribute="leading" secondItem="eCd-vl-t6W" secondAttribute="leading" id="3j9-Vf-kat"/>
+                    <constraint firstItem="5f8-ja-qDh" firstAttribute="top" secondItem="eCd-vl-t6W" secondAttribute="topMargin" id="45N-T7-yYG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="6KA-T8-k8Q" secondAttribute="bottom" constant="-8" id="Ku9-oH-8oU"/>
+                    <constraint firstAttribute="trailing" secondItem="ihY-tc-kd6" secondAttribute="trailing" id="ML4-C2-Diw"/>
+                    <constraint firstItem="6KA-T8-k8Q" firstAttribute="leading" secondItem="eCd-vl-t6W" secondAttribute="leading" id="T0g-Kg-ImU"/>
+                    <constraint firstAttribute="trailing" secondItem="6KA-T8-k8Q" secondAttribute="trailing" id="aOo-TX-TDV"/>
+                    <constraint firstItem="ihY-tc-kd6" firstAttribute="top" secondItem="5f8-ja-qDh" secondAttribute="bottom" constant="5" id="eyr-6f-Qug"/>
+                    <constraint firstItem="5f8-ja-qDh" firstAttribute="leading" secondItem="eCd-vl-t6W" secondAttribute="leadingMargin" id="pr2-mn-i6c"/>
+                    <constraint firstItem="5f8-ja-qDh" firstAttribute="trailing" secondItem="eCd-vl-t6W" secondAttribute="trailingMargin" id="s4S-vt-JDF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="ihY-tc-kd6" id="tam-af-l34"/>
+                <outlet property="collectionViewHeightConstraint" destination="d8w-fX-XuL" id="rh2-ve-e8f"/>
+                <outlet property="pageControl" destination="6KA-T8-k8Q" id="eVT-z0-p6u"/>
+                <outlet property="topLabel" destination="5f8-ja-qDh" id="3cm-bi-8C6"/>
+            </connections>
+            <point key="canvasLocation" x="793.5" y="403"/>
+        </tableViewCell>
+    </objects>
+</document>

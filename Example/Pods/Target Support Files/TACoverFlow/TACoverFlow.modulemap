@@ -1,0 +1,6 @@
+framework module TACoverFlow {
+  umbrella header "TACoverFlow-umbrella.h"
+
+  export *
+  module * { export * }
+}

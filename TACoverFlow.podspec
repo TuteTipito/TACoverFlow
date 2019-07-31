@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/matias.spinelli@gmail.com/TACoverFlow'
+  s.homepage         = 'https://github.com/TuteTipito/TACoverFlow'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'matias.spinelli@gmail.com' => 'matias.spinelli@gmail.com' }
-  s.source           = { :git => 'https://github.com/matias.spinelli@gmail.com/TACoverFlow.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TuteTipito/TACoverFlow.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'TACoverFlow/Classes/**/*'
   

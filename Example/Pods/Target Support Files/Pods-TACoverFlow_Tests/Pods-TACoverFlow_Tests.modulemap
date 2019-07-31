@@ -1,0 +1,6 @@
+framework module Pods_TACoverFlow_Tests {
+  umbrella header "Pods-TACoverFlow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

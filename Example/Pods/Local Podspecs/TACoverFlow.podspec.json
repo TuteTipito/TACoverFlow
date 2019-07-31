@@ -1,0 +1,22 @@
+{
+  "name": "TACoverFlow",
+  "version": "0.1.0",
+  "summary": "A short description of TACoverFlow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/matias.spinelli@gmail.com/TACoverFlow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "matias.spinelli@gmail.com": "matias.spinelli@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/matias.spinelli@gmail.com/TACoverFlow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TACoverFlow/Classes/**/*"
+}

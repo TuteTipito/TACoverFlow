@@ -1,0 +1,16 @@
+PODS:
+  - TACoverFlow (0.1.0)
+
+DEPENDENCIES:
+  - TACoverFlow (from `../`)
+
+EXTERNAL SOURCES:
+  TACoverFlow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TACoverFlow: e703fab7af3e35acea59e844d9e60a890591ce46
+
+PODFILE CHECKSUM: 85d80291ca467fcfb0e720ac50886f096d646253
+
+COCOAPODS: 1.6.0
