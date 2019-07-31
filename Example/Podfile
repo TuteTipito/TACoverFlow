@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TACoverFlow_Example' do
+  pod 'TACoverFlow', :path => '../'
+
+  target 'TACoverFlow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
