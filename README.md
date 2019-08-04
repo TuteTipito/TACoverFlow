@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/TACoverFlow.svg?style=flat)](https://cocoapods.org/pods/TACoverFlow)
 [![Platform](https://img.shields.io/cocoapods/p/TACoverFlow.svg?style=flat)](https://cocoapods.org/pods/TACoverFlow)
 
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +24,7 @@ pod 'TACoverFlow'
 
 ## Author
 
-matias.spinelli@gmail.com, matias.spinelli@gmail.com
+Matías Spinelli matias.spinelli@gmail.com, Angel Landoni angelland28@gmail.com
 
 ## License
 
