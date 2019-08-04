@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let carouselUno = CarouselCard(titleText : "String", subtitleText : "String", pointsValue : 0, imageName: nil)
+        let carouselUno = CarouselCard(titleText : "String", subtitleText : "String", pointsValue : 0, imageName: "codersrank")
         
         var coverflowCards = [carouselUno]
         
