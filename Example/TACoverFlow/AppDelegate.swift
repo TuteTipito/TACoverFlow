@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TACoverFlow
 //
-//  Created by matias.spinelli@gmail.com on 07/30/2019.
-//  Copyright (c) 2019 matias.spinelli@gmail.com. All rights reserved.
+//  Created by Matías Spinelli on 07/30/2019.
+//  Copyright (c) 2019 Dalmunc. All rights reserved.
 //
 
 import UIKit

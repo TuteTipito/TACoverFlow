@@ -83,7 +83,7 @@ class CoverflowItemCellBar : CALayer {
         
         let myAttributes = [
 //            NSFontAttributeName: UIFont.bodySmall(),
-            NSAttributedStringKey.foregroundColor: UIColor.white
+            NSAttributedString.Key.foregroundColor: UIColor.white
         ]
         let myAttributedString = NSAttributedString(string: textBuffer, attributes: myAttributes)
         

@@ -1,5 +1,5 @@
 PODS:
-  - TACoverFlow (0.1.0)
+  - TACoverFlow (1.0.3)
 
 DEPENDENCIES:
   - TACoverFlow (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TACoverFlow: e703fab7af3e35acea59e844d9e60a890591ce46
+  TACoverFlow: f076fb90116c8e5772083d866892832ebadb3deb
 
 PODFILE CHECKSUM: 85d80291ca467fcfb0e720ac50886f096d646253
 

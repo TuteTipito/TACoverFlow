@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  TACoverFlow
 //
-//  Created by matias.spinelli@gmail.com on 07/30/2019.
-//  Copyright (c) 2019 matias.spinelli@gmail.com. All rights reserved.
+//  Created by Matías Spinelli on 07/30/2019.
+//  Copyright (c) 2019 Dalmunc. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         didSet {
             tableView.delegate = self
             tableView.dataSource = self
-            tableView.register(CoverflowCell.self, forCellReuseIdentifier: "CoverflowCell")
+            
+            let coverFlowNib = UINib.init(nibName: "CoverflowCell", bundle: Bundle(for: CoverflowCell.self))
+            tableView.register(coverFlowNib, forCellReuseIdentifier: "CoverflowCell")
         }
     }
     
@@ -28,9 +30,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let carouselUno = CarouselCard(titleText : "String", subtitleText : "String", pointsValue : 0, imageName: "codersrank")
-        
-        var coverflowCards = [carouselUno]
+        let carouselUno = CarouselCard(titleText : "Uno", subtitleText : "Uno", pointsValue : 0, imageName: "ios8")
+        let carouselDos = CarouselCard(titleText : "Dos", subtitleText : "Dos", pointsValue : 2, imageName: "ios8")
+        let carouselTres = CarouselCard(titleText : "Tres", subtitleText : "Tres", pointsValue : 1, imageName: "ios8")
+        let carouselCuatro = CarouselCard(titleText : "Cuatro", subtitleText : "Cuatro", pointsValue : 10, imageName: "ios8")
+
+        var coverflowCards = [carouselUno, carouselDos, carouselTres, carouselCuatro]
         
         coverflowCell.set(CarouselItems: &coverflowCards, andTitle: "kCarouselTitleText")
 

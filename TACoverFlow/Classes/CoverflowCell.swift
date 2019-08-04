@@ -33,21 +33,19 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
     private var scaleFactor : CGFloat = (UIScreen.main.bounds.width * 2) / 414
     
     private var isInfinite : Bool = false
-    
+    private var didSetupCell : Bool = false
+
     private var carouselArray : [CarouselCard] = []
     public var delegate : CarouselDelegate?
 
-    override public func awakeFromNib() {
-        super.awakeFromNib()
-        setup()
-    }
-    
     // MARK :  Cell methods.
     
     override public func layoutSubviews() {
         super.layoutSubviews()
-        collectionView.contentOffset.x = -(UIScreen.main.bounds.width - ((UIScreen.main.bounds.height * kCardSize.width) / baseScreenHeight)) / 2
-        calculateVisibleCellsSize()
+        if !didSetupCell {
+            collectionView.contentOffset.x = -(UIScreen.main.bounds.width - ((UIScreen.main.bounds.height * kCardSize.width) / baseScreenHeight)) / 2
+            didSetupCell = true
+        }
     }
     
     override public func prepareForReuse() {
@@ -57,6 +55,8 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
     // MARK : Private methods.
     
     private func setup() {
+        self.selectionStyle = .none
+
         let collectionLayout : CenterAlignedCollectionViewFlowLayout = CenterAlignedCollectionViewFlowLayout()
         collectionLayout.minimumLineSpacing = 0
         collectionLayout.itemSize = itemSize
@@ -70,20 +70,22 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
         collectionView.backgroundColor = UIColor.gray
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.showsVerticalScrollIndicator = false
-        collectionView.register(CoverflowItemCell.self, forCellWithReuseIdentifier: "CoverflowItemCell")
+        
+        let coverflowItemNib = UINib.init(nibName: "CoverflowItemCell", bundle: Bundle(for: CoverflowCell.self))
+        collectionView.register(coverflowItemNib, forCellWithReuseIdentifier: "CoverflowItemCell")
         collectionView.contentInset = UIEdgeInsets(
             top: 0,
             left: (UIScreen.main.bounds.width - itemSize.width) / 2,
             bottom: 0,
             right: (UIScreen.main.bounds.width - itemSize.width) / 2 + 1
         )
-        collectionView.decelerationRate = UIScrollViewDecelerationRateFast
+        collectionView.decelerationRate = UIScrollView.DecelerationRate.fast
         
         backgroundColor = UIColor.gray
         collectionViewHeightConstraint.constant = (UIScreen.main.bounds.height * 170) / baseScreenHeight
         
 //        topLabel.font = UIFont.smallBold()
-        topLabel.textColor = UIColor.gray
+        topLabel.textColor = UIColor.white
         topLabel.textAlignment = .center
         
         pageControl.currentPage = 0
@@ -94,16 +96,19 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
         pageControl.isUserInteractionEnabled = false
     }
     
-    private func calculateVisibleCellsSize() {
-        for cell in collectionView.visibleCells as [UICollectionViewCell]  {
-            var vectorX : CGFloat = leftScrollOffsetToMiddleScreen - (cell.frame.origin.x + (cell.frame.width / 2))
-            vectorX = vectorX < 0 ? -vectorX : vectorX
-            
-            cell.transform = CGAffineTransform(
-                scaleX: -(1/scaleFactor) * (pow((vectorX / UIScreen.main.bounds.width),2)) + 1,
-                y: -(1/scaleFactor) * (pow((vectorX / UIScreen.main.bounds.width),2)) + 1
-            )
+    private func calculateAllVisibleCellsSize() {
+        for cell in collectionView.visibleCells {
+            calculateCellsSize(cell as! CoverflowItemCell)
         }
+    }
+    
+    private func calculateCellsSize(_ cell: CoverflowItemCell) {
+        let vectorX : CGFloat = abs(leftScrollOffsetToMiddleScreen - (cell.frame.origin.x + (cell.frame.width / 2)))
+        
+        cell.transform = CGAffineTransform(
+            scaleX: -(1/scaleFactor) * (pow((vectorX / UIScreen.main.bounds.width),2)) + 1,
+            y: -(1/scaleFactor) * (pow((vectorX / UIScreen.main.bounds.width),2)) + 1
+        )
     }
     
     // MARK : Collection view delegate and data source
@@ -119,7 +124,7 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell : CoverflowItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoverflowItemCell", for: indexPath) as! CoverflowItemCell
         cell.setCellWithCarouselCard(carouselCard: carouselArray[indexPath.row],itemSize:itemSize)
-        calculateVisibleCellsSize()
+        calculateCellsSize(cell)
         return cell
     }
     
@@ -134,7 +139,7 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
         let numberOfLeftItems = Int(round((collectionView.contentOffset.x + ((UIScreen.main.bounds.width - itemSize.width) / 2)) / itemSize.width))
         pageControl.currentPage = numberOfLeftItems
         
-        defer { calculateVisibleCellsSize() }
+        defer { calculateAllVisibleCellsSize() }
         
         guard isInfinite else { return }
         
@@ -147,10 +152,21 @@ public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UI
     }
     
     public func set( CarouselItems array: inout [CarouselCard], andTitle title:String) {
+        
+        self.setup()
+        
         carouselArray = array
         let attributedString = NSMutableAttributedString(string: title.uppercased())
-        attributedString.addAttribute(NSAttributedStringKey.kern, value: CGFloat(1.8), range: NSRange(location: 0, length: title.count))
+        attributedString.addAttribute(NSAttributedString.Key.kern, value: CGFloat(1.8), range: NSRange(location: 0, length: title.count))
         topLabel.attributedText = attributedString
         pageControl.numberOfPages = carouselArray.count
+        
+        // If the number of cards is 1 or lower the application
+        // have to hide the page indicator.
+        if carouselArray.count <= 1 {
+            pageControl.isHidden = true
+        }
+        
+        collectionView.reloadData()
     }
 }

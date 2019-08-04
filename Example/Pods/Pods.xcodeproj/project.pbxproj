@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0072909322F13299004F0E1F /* CarouselDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072908C22F13298004F0E1F /* CarouselDelegate.swift */; };
-		0072909422F13299004F0E1F /* CoverflowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0072908D22F13298004F0E1F /* CoverflowCell.xib */; };
-		0072909522F13299004F0E1F /* CoverflowItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072908E22F13299004F0E1F /* CoverflowItemCell.swift */; };
-		0072909622F13299004F0E1F /* CoverflowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072908F22F13299004F0E1F /* CoverflowCell.swift */; };
-		0072909722F13299004F0E1F /* CoverflowItemCellBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072909022F13299004F0E1F /* CoverflowItemCellBar.swift */; };
-		0072909822F13299004F0E1F /* CarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072909122F13299004F0E1F /* CarouselCard.swift */; };
-		0072909922F13299004F0E1F /* CoverflowItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0072909222F13299004F0E1F /* CoverflowItemCell.xib */; };
+		0FA6B0967E6423897543080C738778A3 /* CoverflowItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FDBB4DF790091BD24C27EDE685DF9F /* CoverflowItemCell.xib */; };
 		10DA6BD90AEBAD9CAF1E2C5ED1EF6CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		146562EFCA53A6774F23E779D23ADFFB /* Pods-TACoverFlow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 555F615F424157714AAD1B6D88B05EF5 /* Pods-TACoverFlow_Example-dummy.m */; };
-		1F4FAECA3D08A86FCA9B02B1668072CA /* Pods-TACoverFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B15B4CC5ECC3D1CF5273D7F59BD9AADD /* Pods-TACoverFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		573D35796E20EE1FA98307B361FF0F13 /* TACoverFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AC18C61F39C1D0B9416DFDEA1F87F /* TACoverFlow-dummy.m */; };
+		146562EFCA53A6774F23E779D23ADFFB /* Pods-TACoverFlow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37378E417B846940E1980079D46C4F0D /* Pods-TACoverFlow_Example-dummy.m */; };
+		18FD6FA0B664803B453AE25A484DBBC5 /* TACoverFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F05C461A04A41F492793A52E0A7D /* TACoverFlow-dummy.m */; };
+		1F4FAECA3D08A86FCA9B02B1668072CA /* Pods-TACoverFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E770380D49A38898A896A99FA9D2A8 /* Pods-TACoverFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4826C4426608E31C241CA8949C16C358 /* CoverflowItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE1161BEAD0D9DBFBD6CBC7E15A474 /* CoverflowItemCell.swift */; };
+		4CAC3920EA07B43F8DADDE865F740C49 /* CarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976F9095389A811CC849526E8ABA24B /* CarouselCard.swift */; };
 		58686D1D45F5B3EB2254BEF244B7192C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		70960941748E3B40C1666624A2E04243 /* CoverflowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF95D87FF0AE3FBA50C339ECAB8D2C /* CoverflowCell.swift */; };
 		79D3FD2DA5FDB23ACC1BFF27D629A8B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7DDD2C6EC5DE60F44E0BB8992011C7EC /* Pods-TACoverFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77BB1E0C5AAFC61F4DB1E3A60755659 /* Pods-TACoverFlow_Tests-dummy.m */; };
+		843FBAC36CFDF2ACCD16B2E71E9C4CC8 /* CarouselDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47448AABCB1DA5360650BD071825A998 /* CarouselDelegate.swift */; };
 		92A01ABFA08436C001C920671F2DE8A0 /* Pods-TACoverFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37AD3F317AC9C5434BECC4289E2356A0 /* Pods-TACoverFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC581E69EFC97B6FAC7DBF4ADD3468B5 /* TACoverFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C1CFDE398E622D6748CDAE5DD124ED /* TACoverFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD58735FAEBBF39821036E50146E402 /* CoverflowItemCellBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA31CD205A58BD1464355D1F8DA68F /* CoverflowItemCellBar.swift */; };
+		ED12AFEB54487BDFC42DBB19FBB4BF11 /* CoverflowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28DFAC53C60C6FBDC58DF000FB86E3D7 /* CoverflowCell.xib */; };
+		FC581E69EFC97B6FAC7DBF4ADD3468B5 /* TACoverFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3D8CA5F380625126B64885985BB32B /* TACoverFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,42 +43,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0072908C22F13298004F0E1F /* CarouselDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarouselDelegate.swift; path = TACoverFlow/Classes/CarouselDelegate.swift; sourceTree = "<group>"; };
-		0072908D22F13298004F0E1F /* CoverflowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoverflowCell.xib; path = TACoverFlow/Classes/CoverflowCell.xib; sourceTree = "<group>"; };
-		0072908E22F13299004F0E1F /* CoverflowItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverflowItemCell.swift; path = TACoverFlow/Classes/CoverflowItemCell.swift; sourceTree = "<group>"; };
-		0072908F22F13299004F0E1F /* CoverflowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverflowCell.swift; path = TACoverFlow/Classes/CoverflowCell.swift; sourceTree = "<group>"; };
-		0072909022F13299004F0E1F /* CoverflowItemCellBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverflowItemCellBar.swift; path = TACoverFlow/Classes/CoverflowItemCellBar.swift; sourceTree = "<group>"; };
-		0072909122F13299004F0E1F /* CarouselCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarouselCard.swift; path = TACoverFlow/Classes/CarouselCard.swift; sourceTree = "<group>"; };
-		0072909222F13299004F0E1F /* CoverflowItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoverflowItemCell.xib; path = TACoverFlow/Classes/CoverflowItemCell.xib; sourceTree = "<group>"; };
-		0E1E986C179351FB89014B2FAD2B2CB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0F67F1094D1D717E04D44CEE782C1DA1 /* Pods-TACoverFlow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACoverFlow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15BD95520AA004BB49D580EB5C3BABA0 /* TACoverFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TACoverFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F6ACD623A435761C1BAAF1A13F83763 /* TACoverFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TACoverFlow.modulemap; sourceTree = "<group>"; };
-		237AC18C61F39C1D0B9416DFDEA1F87F /* TACoverFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TACoverFlow-dummy.m"; sourceTree = "<group>"; };
-		258B481CFF5C924714E00D697773ABD1 /* Pods_TACoverFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACoverFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1FA76A89B904E6190E7E1E9DD22978 /* TACoverFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TACoverFlow.modulemap; sourceTree = "<group>"; };
+		15BD95520AA004BB49D580EB5C3BABA0 /* TACoverFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TACoverFlow.framework; path = TACoverFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FDBB4DF790091BD24C27EDE685DF9F /* CoverflowItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CoverflowItemCell.xib; path = TACoverFlow/Classes/CoverflowItemCell.xib; sourceTree = "<group>"; };
+		258B481CFF5C924714E00D697773ABD1 /* Pods_TACoverFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TACoverFlow_Example.framework; path = "Pods-TACoverFlow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFAC53C60C6FBDC58DF000FB86E3D7 /* CoverflowCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CoverflowCell.xib; path = TACoverFlow/Classes/CoverflowCell.xib; sourceTree = "<group>"; };
 		2AF4A4AE5A5A64C03D771AF070D912DB /* Pods-TACoverFlow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Tests-Info.plist"; sourceTree = "<group>"; };
+		30EEF0279542F32E9A83951EFB20CDF6 /* Pods-TACoverFlow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACoverFlow_Example-resources.sh"; sourceTree = "<group>"; };
+		31E0F74A37901B1C4BE478B338C5F739 /* TACoverFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACoverFlow-prefix.pch"; sourceTree = "<group>"; };
+		37378E417B846940E1980079D46C4F0D /* Pods-TACoverFlow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACoverFlow_Example-dummy.m"; sourceTree = "<group>"; };
 		37AD3F317AC9C5434BECC4289E2356A0 /* Pods-TACoverFlow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACoverFlow_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3C37CE37866FCC2D9A7457EF82BDAB0B /* Pods_TACoverFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACoverFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		555F615F424157714AAD1B6D88B05EF5 /* Pods-TACoverFlow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACoverFlow_Example-dummy.m"; sourceTree = "<group>"; };
-		57270616517F91676AB52CFF72AE2ABC /* Pods-TACoverFlow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACoverFlow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3C37CE37866FCC2D9A7457EF82BDAB0B /* Pods_TACoverFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TACoverFlow_Tests.framework; path = "Pods-TACoverFlow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47448AABCB1DA5360650BD071825A998 /* CarouselDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarouselDelegate.swift; path = TACoverFlow/Classes/CarouselDelegate.swift; sourceTree = "<group>"; };
+		51DE1161BEAD0D9DBFBD6CBC7E15A474 /* CoverflowItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverflowItemCell.swift; path = TACoverFlow/Classes/CoverflowItemCell.swift; sourceTree = "<group>"; };
+		5976F9095389A811CC849526E8ABA24B /* CarouselCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarouselCard.swift; path = TACoverFlow/Classes/CarouselCard.swift; sourceTree = "<group>"; };
 		63A7D8061FFDC3E1ABC712E83BC2C2EA /* Pods-TACoverFlow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TACoverFlow_Tests.modulemap"; sourceTree = "<group>"; };
-		7A9DDE52C7BCAEA3E018FA88615BDD48 /* Pods-TACoverFlow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Example-Info.plist"; sourceTree = "<group>"; };
-		7D5C78A6E207BCE41152E432C1628EFA /* TACoverFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TACoverFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		918E6B19110BAB2AFA557FA5F1245F4D /* Pods-TACoverFlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		947F7E9301F819CB855BE70BCD2770DC /* Pods-TACoverFlow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TACoverFlow_Example.modulemap"; sourceTree = "<group>"; };
-		959928D229E20D496E7B72D49692E8FF /* TACoverFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACoverFlow-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F5A29D0560E42AF8B3759A36A104ECE /* Pods-TACoverFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A14972CF5169EDED169399744696561D /* Pods-TACoverFlow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB0E8E9CFC28E382A9D778D6B689660C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B15B4CC5ECC3D1CF5273D7F59BD9AADD /* Pods-TACoverFlow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACoverFlow_Example-umbrella.h"; sourceTree = "<group>"; };
+		74667D5D2796B94DA4C2076E55E9343D /* Pods-TACoverFlow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TACoverFlow_Example.modulemap"; sourceTree = "<group>"; };
+		7496E0AD9766AAB885432AC99CB1F459 /* Pods-TACoverFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		751A3452D6544C043FEDB42D782A511D /* TACoverFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TACoverFlow-Info.plist"; sourceTree = "<group>"; };
+		86AF95D87FF0AE3FBA50C339ECAB8D2C /* CoverflowCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverflowCell.swift; path = TACoverFlow/Classes/CoverflowCell.swift; sourceTree = "<group>"; };
+		9BAA31CD205A58BD1464355D1F8DA68F /* CoverflowItemCellBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverflowItemCellBar.swift; path = TACoverFlow/Classes/CoverflowItemCellBar.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0383824E215C280BD018F0F9AF9652D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B23593F7722BCCD2DC5B90B12DEBBB3D /* Pods-TACoverFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACoverFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5580E27D19771921C8F1325F964669E /* Pods-TACoverFlow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB9DAE545F4A19E20D31877A1D1B1EA5 /* Pods-TACoverFlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3D8CA5F380625126B64885985BB32B /* TACoverFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACoverFlow-umbrella.h"; sourceTree = "<group>"; };
 		C5740A06AC2670415375F40D07921E0C /* Pods-TACoverFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9C1CFDE398E622D6748CDAE5DD124ED /* TACoverFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACoverFlow-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E225B9D8608FA3B8C0EBC24B44F8FC25 /* TACoverFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TACoverFlow-Info.plist"; sourceTree = "<group>"; };
+		D4CA4841CDCB9F5D2D68197B1023C338 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4E770380D49A38898A896A99FA9D2A8 /* Pods-TACoverFlow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACoverFlow_Example-umbrella.h"; sourceTree = "<group>"; };
+		DE6F6C150AD5D4CFADB0DDA02AAF8A51 /* Pods-TACoverFlow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACoverFlow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E15DD3EF23034CCE1DC30EE61B9B1E49 /* TACoverFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TACoverFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECB8F05C461A04A41F492793A52E0A7D /* TACoverFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TACoverFlow-dummy.m"; sourceTree = "<group>"; };
+		ED3DDFD9E70468DE156323594B12B061 /* TACoverFlow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TACoverFlow.xcconfig; sourceTree = "<group>"; };
 		F03869C661320AB7311C0E583591E6A6 /* Pods-TACoverFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F49D40C26244BB12A31CBB4E3B860D95 /* TACoverFlow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TACoverFlow.xcconfig; sourceTree = "<group>"; };
+		F39CC3C921BDA931AD9625DE0ACF6DE6 /* Pods-TACoverFlow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACoverFlow_Example-Info.plist"; sourceTree = "<group>"; };
 		F77BB1E0C5AAFC61F4DB1E3A60755659 /* Pods-TACoverFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACoverFlow_Tests-dummy.m"; sourceTree = "<group>"; };
 		FB0C9987212048193F9AC1C70AC82E6A /* Pods-TACoverFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACoverFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,26 +111,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07AA9F35A21FBD309578D605F9579D28 /* Development Pods */ = {
+		08F74C2BC04AE91225788211158099B0 /* TACoverFlow */ = {
 			isa = PBXGroup;
 			children = (
-				085EC93DCCA2B833750D917C62B3D683 /* TACoverFlow */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		085EC93DCCA2B833750D917C62B3D683 /* TACoverFlow */ = {
-			isa = PBXGroup;
-			children = (
-				0072909122F13299004F0E1F /* CarouselCard.swift */,
-				0072908C22F13298004F0E1F /* CarouselDelegate.swift */,
-				0072908F22F13299004F0E1F /* CoverflowCell.swift */,
-				0072908D22F13298004F0E1F /* CoverflowCell.xib */,
-				0072908E22F13299004F0E1F /* CoverflowItemCell.swift */,
-				0072909222F13299004F0E1F /* CoverflowItemCell.xib */,
-				0072909022F13299004F0E1F /* CoverflowItemCellBar.swift */,
-				63CE929A755A519B09A925AF436B8AB5 /* Pod */,
-				4CFB8F62ECAA99348DDBBE368789FA14 /* Support Files */,
+				5976F9095389A811CC849526E8ABA24B /* CarouselCard.swift */,
+				47448AABCB1DA5360650BD071825A998 /* CarouselDelegate.swift */,
+				86AF95D87FF0AE3FBA50C339ECAB8D2C /* CoverflowCell.swift */,
+				51DE1161BEAD0D9DBFBD6CBC7E15A474 /* CoverflowItemCell.swift */,
+				9BAA31CD205A58BD1464355D1F8DA68F /* CoverflowItemCellBar.swift */,
+				2659E98258AAD62393CC178FF176DC40 /* Pod */,
+				B513C8E40F60E35CB542CFEFAFF0B536 /* Resources */,
+				88E4A7387045366F2C8FC600D90B0A99 /* Support Files */,
 			);
 			name = TACoverFlow;
 			path = ../..;
@@ -139,27 +130,37 @@
 		0E79FA980AB0F784BD847ACE8C813442 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C1B47E829A2D533DDB557C528CE5DA0 /* Pods-TACoverFlow_Example */,
+				21FA4B4DDDD339F936838F849592F613 /* Pods-TACoverFlow_Example */,
 				3C53E92F2186CE97AA948EA23461FF47 /* Pods-TACoverFlow_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C1B47E829A2D533DDB557C528CE5DA0 /* Pods-TACoverFlow_Example */ = {
+		21FA4B4DDDD339F936838F849592F613 /* Pods-TACoverFlow_Example */ = {
 			isa = PBXGroup;
 			children = (
-				947F7E9301F819CB855BE70BCD2770DC /* Pods-TACoverFlow_Example.modulemap */,
-				0F67F1094D1D717E04D44CEE782C1DA1 /* Pods-TACoverFlow_Example-acknowledgements.markdown */,
-				A14972CF5169EDED169399744696561D /* Pods-TACoverFlow_Example-acknowledgements.plist */,
-				555F615F424157714AAD1B6D88B05EF5 /* Pods-TACoverFlow_Example-dummy.m */,
-				57270616517F91676AB52CFF72AE2ABC /* Pods-TACoverFlow_Example-frameworks.sh */,
-				7A9DDE52C7BCAEA3E018FA88615BDD48 /* Pods-TACoverFlow_Example-Info.plist */,
-				B15B4CC5ECC3D1CF5273D7F59BD9AADD /* Pods-TACoverFlow_Example-umbrella.h */,
-				918E6B19110BAB2AFA557FA5F1245F4D /* Pods-TACoverFlow_Example.debug.xcconfig */,
-				9F5A29D0560E42AF8B3759A36A104ECE /* Pods-TACoverFlow_Example.release.xcconfig */,
+				74667D5D2796B94DA4C2076E55E9343D /* Pods-TACoverFlow_Example.modulemap */,
+				DE6F6C150AD5D4CFADB0DDA02AAF8A51 /* Pods-TACoverFlow_Example-acknowledgements.markdown */,
+				B5580E27D19771921C8F1325F964669E /* Pods-TACoverFlow_Example-acknowledgements.plist */,
+				37378E417B846940E1980079D46C4F0D /* Pods-TACoverFlow_Example-dummy.m */,
+				F39CC3C921BDA931AD9625DE0ACF6DE6 /* Pods-TACoverFlow_Example-Info.plist */,
+				30EEF0279542F32E9A83951EFB20CDF6 /* Pods-TACoverFlow_Example-resources.sh */,
+				D4E770380D49A38898A896A99FA9D2A8 /* Pods-TACoverFlow_Example-umbrella.h */,
+				BB9DAE545F4A19E20D31877A1D1B1EA5 /* Pods-TACoverFlow_Example.debug.xcconfig */,
+				7496E0AD9766AAB885432AC99CB1F459 /* Pods-TACoverFlow_Example.release.xcconfig */,
 			);
 			name = "Pods-TACoverFlow_Example";
 			path = "Target Support Files/Pods-TACoverFlow_Example";
+			sourceTree = "<group>";
+		};
+		2659E98258AAD62393CC178FF176DC40 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4CA4841CDCB9F5D2D68197B1023C338 /* LICENSE */,
+				B0383824E215C280BD018F0F9AF9652D /* README.md */,
+				E15DD3EF23034CCE1DC30EE61B9B1E49 /* TACoverFlow.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3C53E92F2186CE97AA948EA23461FF47 /* Pods-TACoverFlow_Tests */ = {
@@ -178,28 +179,18 @@
 			path = "Target Support Files/Pods-TACoverFlow_Tests";
 			sourceTree = "<group>";
 		};
-		4CFB8F62ECAA99348DDBBE368789FA14 /* Support Files */ = {
+		88E4A7387045366F2C8FC600D90B0A99 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F6ACD623A435761C1BAAF1A13F83763 /* TACoverFlow.modulemap */,
-				F49D40C26244BB12A31CBB4E3B860D95 /* TACoverFlow.xcconfig */,
-				237AC18C61F39C1D0B9416DFDEA1F87F /* TACoverFlow-dummy.m */,
-				E225B9D8608FA3B8C0EBC24B44F8FC25 /* TACoverFlow-Info.plist */,
-				959928D229E20D496E7B72D49692E8FF /* TACoverFlow-prefix.pch */,
-				C9C1CFDE398E622D6748CDAE5DD124ED /* TACoverFlow-umbrella.h */,
+				0D1FA76A89B904E6190E7E1E9DD22978 /* TACoverFlow.modulemap */,
+				ED3DDFD9E70468DE156323594B12B061 /* TACoverFlow.xcconfig */,
+				ECB8F05C461A04A41F492793A52E0A7D /* TACoverFlow-dummy.m */,
+				751A3452D6544C043FEDB42D782A511D /* TACoverFlow-Info.plist */,
+				31E0F74A37901B1C4BE478B338C5F739 /* TACoverFlow-prefix.pch */,
+				BC3D8CA5F380625126B64885985BB32B /* TACoverFlow-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TACoverFlow";
-			sourceTree = "<group>";
-		};
-		63CE929A755A519B09A925AF436B8AB5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0E1E986C179351FB89014B2FAD2B2CB7 /* LICENSE */,
-				AB0E8E9CFC28E382A9D778D6B689660C /* README.md */,
-				7D5C78A6E207BCE41152E432C1628EFA /* TACoverFlow.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -208,6 +199,15 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		B513C8E40F60E35CB542CFEFAFF0B536 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28DFAC53C60C6FBDC58DF000FB86E3D7 /* CoverflowCell.xib */,
+				22FDBB4DF790091BD24C27EDE685DF9F /* CoverflowItemCell.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C3BEDFC93F5DA72178ABC56E85965ED2 /* Products */ = {
@@ -224,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				07AA9F35A21FBD309578D605F9579D28 /* Development Pods */,
+				F20DA48FBEE7768B3D426000A79F3D14 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C3BEDFC93F5DA72178ABC56E85965ED2 /* Products */,
 				0E79FA980AB0F784BD847ACE8C813442 /* Targets Support Files */,
@@ -237,6 +237,14 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20DA48FBEE7768B3D426000A79F3D14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08F74C2BC04AE91225788211158099B0 /* TACoverFlow */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +301,9 @@
 			buildConfigurationList = 1D68BC4086E7C58D0E9D5FBCAD0B8A12 /* Build configuration list for PBXNativeTarget "TACoverFlow" */;
 			buildPhases = (
 				165706505626A73DF853A3F97353336E /* Headers */,
-				1B81D484F6834FB101249D7BA5CCDA9A /* Sources */,
+				32026A088A8A6CFD77DFC7E3F3E5E374 /* Sources */,
 				D24A316D6A4C07EADCD89A4DE90CFE16 /* Frameworks */,
-				9EEFC1393D79BB1AB927AB3AB5859D59 /* Resources */,
+				E4E71FE620AA016E1BD4DE36FBA37433 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,21 +341,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					2E0DD9BAF04BD7C7648B4B28C941C78C = {
-						LastSwiftMigration = 1030;
-					};
-					3AAC7EB2E8CEDE1107C05D99FB6321C5 = {
-						LastSwiftMigration = 1030;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -370,15 +369,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EEFC1393D79BB1AB927AB3AB5859D59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0072909922F13299004F0E1F /* CoverflowItemCell.xib in Resources */,
-				0072909422F13299004F0E1F /* CoverflowCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4378BDED52FB9CC3AC6D4D4AC167E83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,19 +376,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4E71FE620AA016E1BD4DE36FBA37433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED12AFEB54487BDFC42DBB19FBB4BF11 /* CoverflowCell.xib in Resources */,
+				0FA6B0967E6423897543080C738778A3 /* CoverflowItemCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B81D484F6834FB101249D7BA5CCDA9A /* Sources */ = {
+		32026A088A8A6CFD77DFC7E3F3E5E374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0072909322F13299004F0E1F /* CarouselDelegate.swift in Sources */,
-				0072909822F13299004F0E1F /* CarouselCard.swift in Sources */,
-				0072909622F13299004F0E1F /* CoverflowCell.swift in Sources */,
-				573D35796E20EE1FA98307B361FF0F13 /* TACoverFlow-dummy.m in Sources */,
-				0072909522F13299004F0E1F /* CoverflowItemCell.swift in Sources */,
-				0072909722F13299004F0E1F /* CoverflowItemCellBar.swift in Sources */,
+				4CAC3920EA07B43F8DADDE865F740C49 /* CarouselCard.swift in Sources */,
+				843FBAC36CFDF2ACCD16B2E71E9C4CC8 /* CarouselDelegate.swift in Sources */,
+				70960941748E3B40C1666624A2E04243 /* CoverflowCell.swift in Sources */,
+				4826C4426608E31C241CA8949C16C358 /* CoverflowItemCell.swift in Sources */,
+				AFD58735FAEBBF39821036E50146E402 /* CoverflowItemCellBar.swift in Sources */,
+				18FD6FA0B664803B453AE25A484DBBC5 /* TACoverFlow-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,80 +435,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33A7C2C8FB286386370CAEAB2B48331E /* Release */ = {
+		185D2E6C7D14EF384119269C83B19955 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F49D40C26244BB12A31CBB4E3B860D95 /* TACoverFlow.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TACoverFlow/TACoverFlow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TACoverFlow/TACoverFlow-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TACoverFlow/TACoverFlow.modulemap";
-				PRODUCT_MODULE_NAME = TACoverFlow;
-				PRODUCT_NAME = TACoverFlow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		823B851D91F4447201B71C2F0D531B0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 918E6B19110BAB2AFA557FA5F1245F4D /* Pods-TACoverFlow_Example.debug.xcconfig */;
+			baseConfigurationReference = FB0C9987212048193F9AC1C70AC82E6A /* Pods-TACoverFlow_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F30EA0ACBB28381912CA0D022AF4CDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5740A06AC2670415375F40D07921E0C /* Pods-TACoverFlow_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +453,43 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28FEE3C0DEB4D5F78B312915299AD353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5740A06AC2670415375F40D07921E0C /* Pods-TACoverFlow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests.modulemap";
@@ -538,7 +506,138 @@
 			};
 			name = Debug;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		393B8EC78346664ADA2508AD3CD89E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7496E0AD9766AAB885432AC99CB1F459 /* Pods-TACoverFlow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69E1EE4C83C6ED0A08E38F21C4DC9D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3DDFD9E70468DE156323594B12B061 /* TACoverFlow.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TACoverFlow/TACoverFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TACoverFlow/TACoverFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TACoverFlow/TACoverFlow.modulemap";
+				PRODUCT_MODULE_NAME = TACoverFlow;
+				PRODUCT_NAME = TACoverFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -602,70 +701,47 @@
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		7FB3E451145BE92A6E45002FD59079CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9DAE545F4A19E20D31877A1D1B1EA5 /* Pods-TACoverFlow_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F44C5DD9867F7A7B545B4A6904D993B9 /* Debug */ = {
+		9D6BC4FAB10DA70F4EB09BE84AA1009D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F49D40C26244BB12A31CBB4E3B860D95 /* TACoverFlow.xcconfig */;
+			baseConfigurationReference = ED3DDFD9E70468DE156323594B12B061 /* TACoverFlow.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -678,91 +754,21 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TACoverFlow/TACoverFlow-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TACoverFlow/TACoverFlow-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/TACoverFlow/TACoverFlow.modulemap";
 				PRODUCT_MODULE_NAME = TACoverFlow;
 				PRODUCT_NAME = TACoverFlow;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F9917593A6D464BF7BC63FD96A8FF70F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F5A29D0560E42AF8B3759A36A104ECE /* Pods-TACoverFlow_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Example/Pods-TACoverFlow_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FE22AFD9122EDBB82248B11C11F84935 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB0C9987212048193F9AC1C70AC82E6A /* Pods-TACoverFlow_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TACoverFlow_Tests/Pods-TACoverFlow_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -770,8 +776,8 @@
 		13B4294FC3B227B0594E7EBB0CE9E554 /* Build configuration list for PBXNativeTarget "Pods-TACoverFlow_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823B851D91F4447201B71C2F0D531B0D /* Debug */,
-				F9917593A6D464BF7BC63FD96A8FF70F /* Release */,
+				7FB3E451145BE92A6E45002FD59079CA /* Debug */,
+				393B8EC78346664ADA2508AD3CD89E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -779,8 +785,8 @@
 		1D68BC4086E7C58D0E9D5FBCAD0B8A12 /* Build configuration list for PBXNativeTarget "TACoverFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F44C5DD9867F7A7B545B4A6904D993B9 /* Debug */,
-				33A7C2C8FB286386370CAEAB2B48331E /* Release */,
+				9D6BC4FAB10DA70F4EB09BE84AA1009D /* Debug */,
+				69E1EE4C83C6ED0A08E38F21C4DC9D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -788,8 +794,8 @@
 		21409657404E99F0FE880AA1FB3F3664 /* Build configuration list for PBXNativeTarget "Pods-TACoverFlow_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F30EA0ACBB28381912CA0D022AF4CDE /* Debug */,
-				FE22AFD9122EDBB82248B11C11F84935 /* Release */,
+				28FEE3C0DEB4D5F78B312915299AD353 /* Debug */,
+				185D2E6C7D14EF384119269C83B19955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -797,8 +803,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TACoverFlow'
-  s.version          = '1.0.2'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of TACoverFlow.'
 
 # This description is used to generate tags and improve search results.

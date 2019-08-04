@@ -1,9 +1,9 @@
 {
   "name": "TACoverFlow",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "summary": "A short description of TACoverFlow.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/matias.spinelli@gmail.com/TACoverFlow",
+  "homepage": "https://github.com/TuteTipito/TACoverFlow",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "matias.spinelli@gmail.com": "matias.spinelli@gmail.com"
   },
   "source": {
-    "git": "https://github.com/matias.spinelli@gmail.com/TACoverFlow.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/TuteTipito/TACoverFlow.git",
+    "tag": "1.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "TACoverFlow/Classes/**/*"
+  "swift_version": "4.2",
+  "requires_arc": true,
+  "static_framework": true,
+  "source_files": "TACoverFlow/**/*.{swift}",
+  "resources": "TACoverFlow/**/*.{png,jpeg,jpg,pdf,storyboard,xib,xcassets}"
 }
