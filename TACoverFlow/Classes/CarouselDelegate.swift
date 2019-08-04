@@ -1,5 +1,5 @@
 import Foundation
 
-protocol CarouselDelegate {
+public protocol CarouselDelegate {
     func didSelectCarouselCell(_ index : Int)
 }

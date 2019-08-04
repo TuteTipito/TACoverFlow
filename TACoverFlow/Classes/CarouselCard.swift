@@ -1,6 +1,6 @@
 import UIKit
 
-class CarouselCard : NSObject {
+public class CarouselCard : NSObject {
     var titleText : String
     var subtitleText : String
     var pointsText : String
@@ -8,7 +8,7 @@ class CarouselCard : NSObject {
     var image : UIImage!
     var type : String
     
-    init(titleText : String, subtitleText : String, pointsValue : Int, imageName : String? = nil) {
+    public init(titleText : String, subtitleText : String, pointsValue : Int, imageName : String? = nil) {
         self.titleText = titleText
         self.subtitleText = subtitleText
         self.pointsText = (pointsValue==0) ? "" : "+\(pointsValue)"
@@ -22,7 +22,7 @@ class CarouselCard : NSObject {
         super.init()
     }
     
-    init(titleText : String, subtitleText : String, pointsText : String, imageName : String? = nil) {
+    public init(titleText : String, subtitleText : String, pointsText : String, imageName : String? = nil) {
         self.titleText = titleText
         self.subtitleText = subtitleText
         self.pointsText = pointsText
@@ -51,7 +51,7 @@ class CarouselCard : NSObject {
     fileprivate func calculatePointsForText() -> Int {
         guard
             pointsText != "",
-            let points : Int = Int(pointsText.substring(from: pointsText.characters.index(pointsText.endIndex, offsetBy: -3)))
+            let points : Int = Int(pointsText.substring(from: pointsText.index(pointsText.endIndex, offsetBy: -3)))
         
         else {
             return 0

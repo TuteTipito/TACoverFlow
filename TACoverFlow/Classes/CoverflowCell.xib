@@ -11,15 +11,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="RWf-Mp-Crj" customClass="CoverflowCell" customModule="TACoverFlow" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoverflowCell" rowHeight="242" id="RWf-Mp-Crj" customClass="CoverflowCell" customModule="TACoverFlow" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="351" height="242"/>
             <autoresizingMask key="autoresizingMask"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RWf-Mp-Crj" id="eCd-vl-t6W">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="RWf-Mp-Crj" id="eCd-vl-t6W">
                 <rect key="frame" x="0.0" y="0.0" width="351" height="241.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ihY-tc-kd6">
-                        <rect key="frame" x="0.0" y="41" width="351" height="170"/>
+                        <rect key="frame" x="0.0" y="81" width="351" height="170"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="170" id="d8w-fX-XuL"/>
                         </constraints>
@@ -31,13 +31,13 @@
                         </collectionViewFlowLayout>
                     </collectionView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAKE YOUR NEXT STEP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f8-ja-qDh">
-                        <rect key="frame" x="20" y="11" width="311" height="25"/>
+                        <rect key="frame" x="20" y="55.5" width="311" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="6KA-T8-k8Q">
-                        <rect key="frame" x="0.0" y="211" width="351" height="28"/>
+                        <rect key="frame" x="0.0" y="251" width="351" height="28"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="28" id="XH1-6o-uIO"/>
                         </constraints>

@@ -15,7 +15,7 @@ class CenterAlignedCollectionViewFlowLayout : UICollectionViewFlowLayout {
     }
 }
 
-class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource  {
+public final class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource  {
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
@@ -35,22 +35,22 @@ class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionVie
     private var isInfinite : Bool = false
     
     private var carouselArray : [CarouselCard] = []
-    var delegate : CarouselDelegate?
+    public var delegate : CarouselDelegate?
 
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         setup()
     }
     
     // MARK :  Cell methods.
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         collectionView.contentOffset.x = -(UIScreen.main.bounds.width - ((UIScreen.main.bounds.height * kCardSize.width) / baseScreenHeight)) / 2
         calculateVisibleCellsSize()
     }
     
-    override func prepareForReuse() {
+    override public func prepareForReuse() {
         super.prepareForReuse()
     }
     
@@ -70,7 +70,7 @@ class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionVie
         collectionView.backgroundColor = UIColor.gray
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.showsVerticalScrollIndicator = false
-        collectionView.register(UINib(nibName: "CoverflowItemCell", bundle: nil), forCellWithReuseIdentifier: "CoverflowItemCell")
+        collectionView.register(CoverflowItemCell.self, forCellWithReuseIdentifier: "CoverflowItemCell")
         collectionView.contentInset = UIEdgeInsets(
             top: 0,
             left: (UIScreen.main.bounds.width - itemSize.width) / 2,
@@ -108,27 +108,27 @@ class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionVie
     
     // MARK : Collection view delegate and data source
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return carouselArray.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell : CoverflowItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoverflowItemCell", for: indexPath as IndexPath) as! CoverflowItemCell
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell : CoverflowItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoverflowItemCell", for: indexPath) as! CoverflowItemCell
         cell.setCellWithCarouselCard(carouselCard: carouselArray[indexPath.row],itemSize:itemSize)
         calculateVisibleCellsSize()
         return cell
     }
     
-    private func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         delegate?.didSelectCarouselCell(indexPath.row)
         collectionView.deselectItem(at: indexPath as IndexPath, animated: false)
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         leftScrollOffsetToMiddleScreen = (scrollView.contentOffset.x + UIScreen.main.bounds.width / 2)
         
         let numberOfLeftItems = Int(round((collectionView.contentOffset.x + ((UIScreen.main.bounds.width - itemSize.width) / 2)) / itemSize.width))
@@ -146,7 +146,7 @@ class CoverflowCell : UITableViewCell, UICollectionViewDelegate, UICollectionVie
         }
     }
     
-    func set( CarouselItems array: inout [CarouselCard], andTitle title:String) {
+    public func set( CarouselItems array: inout [CarouselCard], andTitle title:String) {
         carouselArray = array
         let attributedString = NSMutableAttributedString(string: title.uppercased())
         attributedString.addAttribute(NSAttributedStringKey.kern, value: CGFloat(1.8), range: NSRange(location: 0, length: title.count))

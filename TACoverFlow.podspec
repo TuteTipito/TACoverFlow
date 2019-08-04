@@ -30,11 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'TACoverFlow/Classes/**/*'
+  s.swift_version = '4.2'
+  s.requires_arc = true
+  s.static_framework = true
   
-  # s.resource_bundles = {
-  #   'TACoverFlow' => ['TACoverFlow/Assets/*.png']
-  # }
+  s.source_files = 'TACoverFlow/Classes/**/*'
+  s.source_files = 'TACoverFlow/**/*.{swift}'
+  s.resources    = 'TACoverFlow/**/*.{png,jpeg,jpg,pdf,storyboard,xib,xcassets}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
