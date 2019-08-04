@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TACoverFlow.svg?style=flat)](https://cocoapods.org/pods/TACoverFlow)
 [![Platform](https://img.shields.io/cocoapods/p/TACoverFlow.svg?style=flat)](https://cocoapods.org/pods/TACoverFlow)
 
-![Example](https://github.com/TuteTipito/TTDialog/blob/master/TACoverFlow.gif)
+![Example](https://github.com/TuteTipito/images/blob/master/TACoverFlow.gif)
 
 
 ## Example
